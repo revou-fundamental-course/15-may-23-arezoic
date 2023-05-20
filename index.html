@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <span class="title">Katik</span><span class="subtitle">Kalkulator Matematik</span>
+    </header>
+    <main>
+        <div class="intro">
+            <h2 class="intro-welcome">
+                Welcome to Katik
+            </h2>
+            <div class="intro-description">Hai Sobat,Selamat datang di Katik :3
+                <br>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar
+            </div>
+            <div class="intro-button">
+                <br><button class="persegi" name="persegi">Persegi</button>
+                <br><button class="persegi-panjang" name="persegi-panjang">P.Panjang</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="luas-persegi">Luas Persegi</div>
+            <div class="figure">
+                <img src="img/persegi.jpg">
+            </div>
+            <div class="formula-description">
+                <p>Rumus Luas Persegi yaitu:</p>
+                <div class="rumus">L = S X S </div>
+
+                Di mana:
+                <br>L = Luas
+                <br>S = Sisi
+            </div>
+            <hr>
+            <div class="batasan">
+                <div class="hitung">
+                    <h2>Hitung Luas Persegi</h2>
+                </div>
+                <input class="sisi-luas" id="sisi-luas" name="sisi-luas" required>
+                <p class="result-luas"><span id="rumus-luas:"></p>
+                <p class="result-luas"><span id="perhitungan-luas"></p>
+                <p class="result-luas"><span id="output-luas"></p>
+                <div class="tombol-hitung-container"><button class="tombol-hitung" name="hitung-luas" onclick="hitungLuas(e)">Hitung</button></div>
+                <div class="tombol-reset-container"><p><button class="tombol-reset"name="reset-luas">Reset</button></p></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
