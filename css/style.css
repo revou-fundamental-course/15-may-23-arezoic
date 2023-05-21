@@ -154,3 +154,18 @@ button.persegi-panjang {
     text-align: right;
     border: none;
 }
+
+.keliling-persegi {
+    text-align: center;
+    background-color: rgb(52, 97, 209);
+    color: white;
+    padding: 20px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.sisi-keliling {
+    width: 100%;
+    box-sizing: border-box;
+}
+
