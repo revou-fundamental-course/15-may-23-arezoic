@@ -1,7 +1,15 @@
 
 var sisiLuas;
-function hitungLuas() {
+function hitungDanCekLuas()   {
     sisiLuas = document.getElementById("sisi-luas").value;
+    if (sisiLuas == '' || isNaN(sisiLuas)) {
+        alert('Please fill in your answer');
+    } else  {
+        hitungLuas(sisiLuas);
+    }
+}
+
+function hitungLuas() {
     var luasPersegi = sisiLuas * sisiLuas;
 
     console.log(sisiLuas);
@@ -18,6 +26,15 @@ function resetLuas()  {
 }
 
 var sisiKeliling;
+function hitungDanCekKeliling()   {
+    sisiKeliling = document.getElementById("sisi-keliling").value;
+    if (sisiKeliling == '' || isNaN(sisiKeliling)) {
+        alert('Please fill in your answer');
+    } else  {
+        hitungKeliling(sisiKeliling);
+    }
+}
+
 function hitungKeliling() {
     sisiKeliling = document.getElementById("sisi-keliling").value;
     var kelilingPersegi = 4 * sisiKeliling;
