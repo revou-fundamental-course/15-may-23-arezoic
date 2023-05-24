@@ -1,0 +1,171 @@
+body {
+    background:lightgrey;
+}
+
+header {
+    background:rgb(42, 31, 163);
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 5px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    margin: 5px;
+    margin-top: 20px;
+    background:white;
+}
+
+.subtitle {
+    color:lightgray;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.figure {
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button.persegi {
+    background-color: rgb(52, 97, 209);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+button.persegi-panjang {
+    background-color: white;
+    color: rgb(52, 97, 209);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.intro  {
+    padding: 10px;
+}
+
+.card   {
+    margin: 10px;
+    border-color: rgb(52, 97, 209);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.intro-welcome  {
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: 5px;
+}
+
+.intro-description  {
+    text-align: center;
+}
+
+.luas-persegi {
+    text-align: center;
+    background-color: rgb(52, 97, 209);
+    color: white;
+    padding: 20px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.rumus  {
+    text-align: center;
+    margin-bottom: 3px;
+    padding-bottom: 0px;
+}
+
+.formula-description  {
+    padding: 10px;
+}
+
+.hitung {
+    text-align: center;
+}
+
+.sisi-luas {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.batasan {
+    margin: 10px;
+}
+
+.tombol-hitung {
+    text-align: center;
+    background-color: rgb(52, 97, 209);
+    color: white;
+    font-size: x-small;
+    padding: 10px 12px 10px 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border: none;
+    text-decoration: none;
+    margin-top: 1px;
+    border-radius: 3px;
+}
+
+.tombol-hitung-container   {
+    text-align: center;
+    border: none;
+}
+
+.tombol-reset  {
+    text-align: right;
+    background-color: rgb(227, 156, 75);
+    color: white;
+    font-size: x-small;
+    border: none;
+    text-decoration: none;
+    padding: 10px 8px 10px 8px;
+    border-radius: 3px;
+}
+
+.tombol-reset-container   {
+    text-align: right;
+    border: none;
+}
+
+.keliling-persegi {
+    text-align: center;
+    background-color: rgb(52, 97, 209);
+    color: white;
+    padding: 20px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.sisi-keliling {
+    width: 100%;
+    box-sizing: border-box;
+}
+
